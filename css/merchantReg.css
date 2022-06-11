@@ -1,0 +1,152 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(87, 137, 194));
+}
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: #c3e4f1;
+    background-color: transparent;
+    text-decoration: none;
+}
+.topSection {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: px;
+    position: absolute;
+    
+}
+.topSection{
+    background-color: #6382B7;
+    height: 105px;
+}
+.logo {
+    float: left;
+    width: 92px;
+    height: 89px;
+}
+.topTitle {
+    font-size: 25px; 
+    font-family: 'Segoe UI', sans-serif;
+    font-style: italic;
+    margin-top: 3px;
+    margin-left: 100px;
+    float: left;
+    color: white;
+    position: absolute;
+    text-shadow: 2px 2px black;
+}
+.slogan {
+    font-size: 20px; 
+    font-family: 'Segoe UI', sans-serif;
+    font-style: italic;
+    margin-left: 70px;
+    margin-top: 40px;
+    float: left;
+    font-style: oblique;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+a.aboutPbl {
+    font-size: 15px;
+    font-family: 'Segoe UI', sans-serif;
+    margin-left: -280px;
+    float: left;
+    margin-top: 75px;
+    font-style: italic;
+}
+
+a.contactUs {
+    font-size: 15px;
+    font-family: 'Segoe UI', sans-serif;
+    margin-left: -140px;  
+    float: left; 
+    margin-top: 75px;
+    font-style: italic;
+}
+
+h4.devider {
+    color: white;
+    margin-left: -148px;
+    margin-top: 75px;
+    float: left;
+}
+.navbar {
+    width: 100%;
+    margin-top: 100px;
+    height: 65px;
+    background-color: #3760A5;
+    position: absolute;
+    font-size: 20px;
+    
+}
+.nav-main {
+    margin: 20px;
+    font-size: 20px;
+    text-align: center;
+    
+}
+#nav-cont{
+    padding: 20px;  
+}
+.merchantForm{
+    padding-top: 200px;
+}
+  input, textarea{
+      padding: 10px;
+      border: 1px solid #bebaba;
+      width: 200px;
+      color: grey;
+      box-shadow: rgb(117, 115, 115) 0px 0px 8px;
+  }
+  textarea{
+      min-width: 200px;
+      max-width: 200px;
+      max-height: 40px;
+      min-height: 40px;
+      font-family: sans-serif;
+  }
+  input:hover, textarea:hover, input:focus, textarea:focus{
+      border-color: 1px solid #c9c9c9;
+      box-shadow:  rgb(39, 64, 134) 0px 0px 8px;
+  }
+  .submit input{
+    background-color: rgb(202, 202, 202); 
+    color: black;
+    border-radius: 4px;
+    width: 100px;
+  }
+  .submit input:hover{
+    background-color: #3760A5;
+    color: white;
+    border: 0px;
+  }
+  input[type="checkbox"]{
+      height: 15px;
+      width: 15px;
+      border-radius: 5px;
+  }
+  .error{
+      font-family: sans-serif;
+      color: red;
+  }
+
+  .footer {
+    color: white;
+    padding: 20px;
+    text-align: right;
+    background: rgb(97, 97, 97);
+    margin-top: 82px
+  }

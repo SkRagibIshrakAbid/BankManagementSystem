@@ -1,0 +1,218 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+}
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: #c3e4f1;
+    background-color: transparent;
+    text-decoration: none;
+}
+.topSection {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: px;
+    position: absolute;
+    
+}
+.topSection{
+    background-color: #6382B7;
+    height: 105px;
+}
+.logo {
+    float: left;
+    width: 92px;
+    height: 89px;
+}
+.topTitle {
+    font-size: 25px; 
+    font-family: 'Segoe UI', sans-serif;
+    font-style: italic;
+    margin-top: 3px;
+    margin-left: 100px;
+    float: left;
+    color: white;
+    position: absolute;
+    text-shadow: 2px 2px black;
+}
+.slogan {
+    font-size: 20px; 
+    font-family: 'Segoe UI', sans-serif;
+    font-style: italic;
+    margin-left: 70px;
+    margin-top: 40px;
+    float: left;
+    font-style: oblique;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+a.aboutPbl {
+    font-size: 15px;
+    font-family: 'Segoe UI', sans-serif;
+    margin-left: -280px;
+    float: left;
+    margin-top: 75px;
+    font-style: italic;
+}
+
+a.contactUs {
+    font-size: 15px;
+    font-family: 'Segoe UI', sans-serif;
+    margin-left: -140px;  
+    float: left; 
+    margin-top: 75px;
+    font-style: italic;
+}
+
+h4.devider {
+    color: white;
+    margin-left: -148px;
+    margin-top: 75px;
+    float: left;
+}
+.navbar {
+    width: 100%;
+    margin-top: 100px;
+    height: 65px;
+    background-color: #3760A5;
+    position: absolute;
+    font-size: 20px;
+    
+}
+.nav-main {
+    margin: 20px;
+    font-size: 20px;
+    text-align: center;
+    
+}
+#nav-cont{
+    padding: 20px;  
+}
+
+
+
+.reg {
+    margin: auto;
+    width: 50%;
+    border: 2px solid black;
+    padding: 10px;
+    overflow: hidden;
+}
+#signup-top{
+    font-family: sans-serif;
+    margin-top: 200px;
+    text-shadow: 1px 1px grey;
+}
+.empReg{
+    margin: auto;
+    border: 2px solid rgb(105, 105, 105);
+    height: 300px;
+    width: 250px;
+    display: inline-block;
+    margin: 10px;
+    box-shadow: 3px 3px rgb(153, 162, 194);
+}
+.cusReg{
+    margin: auto;
+    border: 2px solid rgb(105, 105, 105);;
+    height: 300px;
+    width: 250px;
+    display: inline-block;
+    margin: 10px;
+    box-shadow: 3px 3px rgb(153, 162, 194);
+}
+.venReg{
+    margin: auto;
+    border: 2px solid rgb(105, 105, 105);;
+    height: 300px;
+    width: 250px;
+    display: inline-block;
+    margin: 10px;
+    box-shadow: 3px 3px rgb(153, 162, 194);
+}
+.empReg:hover{
+    border: 2px solid rgb(55, 90, 207);
+    box-shadow: 3px 3px rgb(153, 162, 194);
+}
+.cusReg:hover{
+    border: 2px solid rgb(55, 90, 207);
+    box-shadow: 3px 3px rgb(153, 162, 194);
+}
+.venReg:hover{
+    border: 2px solid rgb(55, 90, 207);
+    box-shadow: 3px 3px rgb(153, 162, 194);
+}
+a.reg-button{
+    font-size: 15px;
+    color: black;
+}
+a.reg-button:hover{
+    color: white;
+}
+
+.reg-button{
+    border: none;
+    color: black;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+
+}
+.button1 {
+    background-color: rgb(202, 202, 202); 
+    text-shadow: 1px 1px grey;
+}
+  
+.button1:hover {
+    background-color: #6382B7;
+}
+.button2 {
+    background-color: rgb(202, 202, 202);   
+    text-shadow: 1px 1px grey;
+}
+  
+.button2:hover {
+    background-color: #6382B7;
+}
+.button3 {
+    background-color: rgb(202, 202, 202); 
+    text-shadow: 1px 1px grey;
+}
+  
+.button3:hover {
+    background-color: #6382B7;
+}
+.footer {
+    color: white;
+    padding: 20px;
+    text-align: right;
+    background: rgb(97, 97, 97);
+    margin-top: 189px
+    
+   }
+
+a.exist-login{
+    color: black;
+    font-size: 20px;
+}
+a.exist-login:hover{
+    color: #6382B7;
+    text-decoration: underline;
+
+}
